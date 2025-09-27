@@ -1,0 +1,64 @@
+.App {
+  min-height: 100vh;
+  background-color: #0a0a0a;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00d4aa;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00a085;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Custom button hover effects */
+.MuiButton-root {
+  transition: all 0.3s ease !important;
+}
+
+/* Card hover effects */
+.MuiCard-root {
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 212, 170, 0.15) !important;
+}
+
+/* Table styling */
+.MuiTable-root {
+  background-color: transparent !important;
+}
+
+.MuiTableHead-root {
+  background-color: rgba(0, 212, 170, 0.1) !important;
+}
+
+/* Custom gradient backgrounds */
+.gradient-bg {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+}
+
+.crypto-green-gradient {
+  background: linear-gradient(45deg, #00d4aa 30%, #00a085 90%);
+}
+
+.crypto-red-gradient {
+  background: linear-gradient(45deg, #ff6b6b 30%, #ff5252 90%);
+}
